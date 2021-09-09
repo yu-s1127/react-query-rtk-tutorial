@@ -4,7 +4,7 @@ import { useHistory } from 'react-router'
 import { ChevronDoubleRightIcon } from '@heroicons/react/solid'
 
 export const ReactQueryA: VFC = () => {
-  console.log("rendered ReactQueryA")
+  console.log('rendered ReactQueryA')
   const history = useHistory()
   const { status, data } = useQueryTasks()
 
